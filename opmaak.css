@@ -5,6 +5,13 @@ body {
   padding: 30px;
 }
 
+div {
+  background-color: white;
+  width: 200 px;
+  border: 20 px black;
+  padding: 50 px;
+  margin: 20px;
+}
 
 /* Header/Blog Title */
 .header {
