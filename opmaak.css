@@ -8,8 +8,8 @@ body {
 div {
   background-color: white;
   width: 200 px;
-  border: 20 px black;
-  padding: 50 px;
+  border: 10 px black;
+  padding: 20 px;
   margin: 20px;
 }
 
@@ -22,7 +22,8 @@ div {
 h1 {
   color: rgb(70, 56, 56); 
   text-align: center;
-  font-size: 80px;
+  text-transform: uppercase;
+  font-size: 50px;
   
 }
 ul {
