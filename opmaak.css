@@ -49,3 +49,16 @@ h1 {
     background-color: #111;
   }
  
+  .column.side {
+    width: 25%;
+  }
+
+  .column.middle {
+    width: 50%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
