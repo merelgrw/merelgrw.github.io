@@ -54,7 +54,7 @@ h1 {
   }
 
   .column.middle {
-    width: 50%;
+    width: 25%;
   }
 
   .row:after {
@@ -65,5 +65,5 @@ h1 {
 
   @media screen and (max-width: 600px) {
     .column.side, .column.middle {
-      width: 75%;
+      width: 50%;
     }
