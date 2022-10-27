@@ -1,6 +1,20 @@
 body {
   background-color: rgb(207, 192, 192);
   color: rgb(0, 0, 0); 
+  font-family: Arial;
+  padding: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Header/Blog Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: white;
 }
 
 h1 {
