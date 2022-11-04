@@ -61,53 +61,8 @@ h1 {
     }
   }
 
-    
+  
 h2 {
   color: rgb(70, 56, 56);
-  text-align: center;
-  font-size: 50px;
-}
-
-  
-h3 {
-  color: rgb(70, 56, 56);
-  text-align: center;
-  font-size: 50px;
-}
-  
-h4 {
-  color: rgb(0, 0, 0);
   font-size: 20px;
-}
-
-h5 {
-  color:rgb(0, 0, 0);
-  font-size: 20px;
-}
-  
-h6 {
-  color: rgb(70, 56, 56);
-  text-align: center;
-  font-size: 50px;
-}
-
-h7 {
-  color:rgb(0, 0, 0);
-  font-size: 20px;
-}
-
-h8 {
-  color:rgb(0, 0, 0);
-  font-size: 20px;
-}
-
-h9 {
-  color:rgb(0, 0, 0);
-  font-size: 20px;
-}
-
-h10 {
-  color:rgb(70, 56, 56);
-  text-align: center;
-  font-size: 50px;
 }
