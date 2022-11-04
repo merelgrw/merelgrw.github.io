@@ -1,9 +1,9 @@
 body {
-  background-color: rgb(207, 192, 192);
+  background-color: rgb(207, 192, 192); 
   color: rgb(0, 0, 0);
   font-family: Arial;
   padding: 30px;
- }
+ } /* achtergrond kleur veranderd, tekstkleur zwart gemaakt en het teksttype is Arial */
   
 
  ul {
@@ -15,11 +15,12 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-  }
+  } /* de navigatiebar gemaakt, een fixed position betekent dat hij bovenin blijft als je scrolt */
+  
    li {
     float: left;
     border-right:1px solid #bbb;
-  }
+  } /* deze twee stukjes laten de tekst links en maken blokjes in de navigatie bar door grijze streepjes ertussen te plaatsen*/
   
   li:last-child {
     border-right: none;
@@ -41,7 +42,7 @@ body {
     float: left;
     width: 50%;
     padding: 15px;
-  }
+  } /*kolommen voor de homepage*/
   
   .row:after {
     content: "";
@@ -53,18 +54,18 @@ body {
     .column {
       width: 100%;
     }
-  }
+  } /* deze 2 kolommen worden weergeven op de homepage, ik heb daar uitgelegd waarom ik ze heb geplaatst */
 
   h1 {
     color: rgb(70, 56, 56);
     text-align: center;
     font-size: 50px;
-  }
+  } /* h1 is de styling van de hoofdkoppen. De kleur is heel donkerrood en de tekst staat in het midden met een grote van 50px */
   
 h2 {
   color: rgb(0, 0, 0);
   font-size: 20 px;
-}
+} /* h2 is de styling van de titels van de tussenkopjes. De kleur is zwart en de grootte is 20px.  */
 
 .footer {
   position: fixed;
@@ -75,4 +76,4 @@ h2 {
   color: white;
   text-align: center;
 }
-
+ /*Een footer toegevoegd. Deze staat bij elke pagina onderin de tekst en blijft ook op dezelfde plek ook al scrol je. */
