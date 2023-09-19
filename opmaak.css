@@ -6,7 +6,7 @@ body {
  } /* achtergrond kleur veranderd, tekstkleur zwart gemaakt en het teksttype is Arial */
   
 
- /*ul {
+ ul {
      list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,12 +17,12 @@ body {
     width: 100%;
   } /* de navigatiebar gemaakt, een fixed position betekent dat hij bovenin blijft als je scrolt */
   
-  /* li {
+   li {
     float: left;
     border-right:1px solid #bbb;
   } /* deze twee stukjes laten de tekst links en maken blokjes in de navigatie bar door grijze streepjes ertussen te plaatsen*/
   
-  /*li:last-child {
+  li:last-child {
     border-right: none;
   }
 
@@ -36,7 +36,7 @@ body {
 
   li a:hover {
     background-color: #111;
-  }*/
+  }
  
   .column {
     float: left;
@@ -110,7 +110,7 @@ h2 {
   display:block;
 }
 
-.navbar {
+/*.navbar {
   overflow: hidden;
   background-color: #333;
 }
