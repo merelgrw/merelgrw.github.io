@@ -1,6 +1,6 @@
 body {
   background-color: rgb(207, 192, 192); 
-  color: rgb(255, 255, 255);
+  color: rgb(7, 7, 7);
   font-family: Arial;
   padding: 30px;
  } /* achtergrond kleur veranderd, tekstkleur zwart gemaakt en het teksttype is Arial */
@@ -87,7 +87,7 @@ h2 {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: black;
+  color: rgb(255, 254, 254);
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -97,14 +97,14 @@ h2 {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:cadetblue;
+  background-color:rgb(168, 104, 102);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.89);
   z-index: 1;
 }
 
 .dropdown-content a:hover {
-  background-color: teal;
+  background-color: rgb(168, 104, 102);
 }
 .dropdown:hover .dropdown-content {
   display:block;
