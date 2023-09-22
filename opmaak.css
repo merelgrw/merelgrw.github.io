@@ -1,16 +1,18 @@
+/*achtegrondkleur van de body*/
 body {
-  background-color: rgb(207, 192, 192); 
-  color: rgb(7, 7, 7);
-  font-family: Arial;
-  padding: 30px;
- } /* achtergrond kleur veranderd, tekstkleur zwart gemaakt en het teksttype is Arial */
-  
- ul {
+  background-color: rgb(209, 169, 154);
+  }
+
+
+/* Ul introduceert een ongeordende lijst, deze css gegevens zijn een onderdeel van de navigatiebalk*/
+/*list-style-type: none;- Verwijdert de punten. Een navigatiebalk heeft namelijk geen lijstmarkeringen nodig. Standaardinstellingen van de browser instellen margin: 0;en verwijderen padding: 0;*/
+/*overflow: hidden; om alles dat langer of breder is dan aangegeven niet te tonen*/
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:rgb(44, 44, 44);
+  background-color:rgb(209, 169, 154);
   }
   
 /* je maakt de navigatiebalk op deze manier horizontaal. Dit doe je door de <li>-elementen te laten zweven en een lay-out voor de navigatielinks op te geven*/
@@ -21,48 +23,16 @@ li {
 /*op deze manier regel je de opmaakt van je navigatiebalk, color bepaald te tekstkleur, de padding regelt de ruimte om de tekst en display: block zorgt voor het weergeven van een element als blok, zoals alinea's en kopteksten altijd zijn geweest */
 li a {
   display: block;
-  color:black;
+  color:rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   }
    
-
-
- 
-  li:last-child {
-    border-right: none;
+/* verander de achtergrond kleur naar de kleur teal op de hover*/
+li a:hover {
+  background-color:rgb(102, 102, 102);
   }
-
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  li a:hover {
-    background-color: #111;
-  }
- 
-  .column {
-    float: left;
-    width: 50%;
-    padding: 15px;
-  } /*kolommen voor de homepage*/
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  @media screen and (max-width:600px) {
-    .column {
-      width: 100%;
-    }
-  } /* deze 2 kolommen worden weergeven op de homepage, ik heb daar uitgelegd waarom ik ze heb geplaatst */
 
   h1 {
     color: rgb(70, 56, 56);
