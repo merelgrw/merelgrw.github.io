@@ -12,7 +12,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:rgb(209, 169, 154);
+  background-color:rgb(181, 126, 105);
   }
   
 /* je maakt de navigatiebalk op deze manier horizontaal. Dit doe je door de <li>-elementen te laten zweven en een lay-out voor de navigatielinks op te geven*/
