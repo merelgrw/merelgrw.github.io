@@ -10,16 +10,24 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  } /* de navigatiebar gemaakt, een fixed position betekent dat hij bovenin blijft als je scrolt */
-  li {
-  float: left;
-  border-right:1px solid #bbb;
-  } /* deze twee stukjes laten de tekst links en maken blokjes in de navigatie bar door grijze streepjes ertussen te plaatsen*/
+  background-color:rgb(44, 44, 44);
+  }
   
+/* je maakt de navigatiebalk op deze manier horizontaal. Dit doe je door de <li>-elementen te laten zweven en een lay-out voor de navigatielinks op te geven*/
+li {
+  float: left;
+  }
+   
+/*op deze manier regel je de opmaakt van je navigatiebalk, color bepaald te tekstkleur, de padding regelt de ruimte om de tekst en display: block zorgt voor het weergeven van een element als blok, zoals alinea's en kopteksten altijd zijn geweest */
+li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+   
+
 
  
   li:last-child {
