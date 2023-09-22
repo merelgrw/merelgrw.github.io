@@ -21,7 +21,7 @@ li {
 /*op deze manier regel je de opmaakt van je navigatiebalk, color bepaald te tekstkleur, de padding regelt de ruimte om de tekst en display: block zorgt voor het weergeven van een element als blok, zoals alinea's en kopteksten altijd zijn geweest */
 li a {
   display: block;
-  color:black;
+  color:rgb(100, 100, 100);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
