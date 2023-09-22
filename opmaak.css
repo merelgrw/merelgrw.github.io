@@ -3,7 +3,6 @@ body {
   background-color: rgb(229, 205, 196);
   }
 
-
 /* Ul introduceert een ongeordende lijst, deze css gegevens zijn een onderdeel van de navigatiebalk*/
 /*list-style-type: none;- Verwijdert de punten. Een navigatiebalk heeft namelijk geen lijstmarkeringen nodig. Standaardinstellingen van de browser instellen margin: 0;en verwijderen padding: 0;*/
 /*overflow: hidden; om alles dat langer of breder is dan aangegeven niet te tonen*/
